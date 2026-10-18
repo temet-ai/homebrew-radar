@@ -2,27 +2,27 @@ class Radar < Formula
   desc "Terminal workspace for GitLab, GitHub, Jira, Slack, Git, and local work"
   homepage "https://github.com/temet-ai/radar"
   license "MIT"
-  version "0.1.0-alpha.8"
+  version "0.1.0-alpha.9"
 
   on_macos do
     on_arm do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.8/radar-v0.1.0-alpha.8-aarch64-apple-darwin.tar.gz"
-      sha256 "c976c580d80bf416975853b226afadf1363368bb5a117716e7504005a313093c"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.9/radar-v0.1.0-alpha.9-aarch64-apple-darwin.tar.gz"
+      sha256 "db19a4822961a6f914bb0326374c54c050e503e855335307fbcb3dc4e618876f"
     end
     on_intel do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.8/radar-v0.1.0-alpha.8-x86_64-apple-darwin.tar.gz"
-      sha256 "e9ab67dc9a739f887e302baa5f71c0adf0126c72f4e671f507df8d8b46c6cf3d"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.9/radar-v0.1.0-alpha.9-x86_64-apple-darwin.tar.gz"
+      sha256 "3887945e37022a8c85ffb5669e9a17aeaa30188c569cd63a417f68c18a6dd3b5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.8/radar-v0.1.0-alpha.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "99f52f7caa9b22edf11ce4c06393c46edc1b5a3adaf9ba86e5bfdb3e84c81615"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.9/radar-v0.1.0-alpha.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "25a4af055af85096d0d3ffef0ff24a9bbca57f13d6c50c989e6032caa9fdabd3"
     end
     on_intel do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.8/radar-v0.1.0-alpha.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "60696cdd4cc7f87d493712041789f933e842ff92d2d1e1c56334962c52bfb4c6"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.9/radar-v0.1.0-alpha.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "dad9048a7d6b9fff2a659f2ecfeac04aa8ddf8fdaa39c3c9b4b86b9a9f2e26b2"
     end
   end
 
