@@ -4,12 +4,13 @@ class Radar < Formula
   license "MIT"
   version "0.1.0-alpha.14"
 
+  # The Mac url sits outside on_arm: Homebrew needs a url to load the formula
+  # at all, so on an Intel Mac it would fail with "requires at least a URL"
+  # before depends_on can say that radar needs Apple Silicon.
   on_macos do
     depends_on arch: :arm64
-    on_arm do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.14/radar-v0.1.0-alpha.14-aarch64-apple-darwin.tar.gz"
-      sha256 "9b9b7816ef0c0c71b952c1f281c93757c4de12ac91fa23ac33718a132baedaf0"
-    end
+    url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.14/radar-v0.1.0-alpha.14-aarch64-apple-darwin.tar.gz"
+    sha256 "9b9b7816ef0c0c71b952c1f281c93757c4de12ac91fa23ac33718a132baedaf0"
   end
 
   on_linux do
