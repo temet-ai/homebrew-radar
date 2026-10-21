@@ -2,25 +2,27 @@ class Radar < Formula
   desc "Terminal workspace for GitLab, GitHub, Jira, Slack, Git, and local work"
   homepage "https://github.com/temet-ai/radar"
   license "MIT"
-  version "0.1.0-alpha.14"
+  version "0.1.0-alpha.15"
 
-  # The Mac url sits outside on_arm: Homebrew needs a url to load the formula
-  # at all, so on an Intel Mac it would fail with "requires at least a URL"
-  # before depends_on can say that radar needs Apple Silicon.
   on_macos do
-    depends_on arch: :arm64
-    url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.14/radar-v0.1.0-alpha.14-aarch64-apple-darwin.tar.gz"
-    sha256 "9b9b7816ef0c0c71b952c1f281c93757c4de12ac91fa23ac33718a132baedaf0"
+    on_arm do
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.15/radar-v0.1.0-alpha.15-aarch64-apple-darwin.tar.gz"
+      sha256 "69dec138c82825b1baf37b2d8b66fb19afa9a5ac32c68c2c14ebf0d27398481f"
+    end
+    on_intel do
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.15/radar-v0.1.0-alpha.15-x86_64-apple-darwin.tar.gz"
+      sha256 "314d089380112d369dde1418cf66370920b1c7d9410dcb658d5bcce23856efcd"
+    end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.14/radar-v0.1.0-alpha.14-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0be07fe555fd7e272d6d5f5a70965d3cca89ce50f957a7119733cdad0cfd8068"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.15/radar-v0.1.0-alpha.15-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d3361a3d1316a477cdf385f99abfb897c74116bad1d63d12008861b770e97ac6"
     end
     on_intel do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.14/radar-v0.1.0-alpha.14-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fe7bdfa6e5500b1b5517ad56079e5e9cbfb1503eb43804209f26445fcb61b35e"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.15/radar-v0.1.0-alpha.15-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4cac73933f54d0b245325076b55273570c764e3d794a0bd7d85c73b30915b272"
     end
   end
 
