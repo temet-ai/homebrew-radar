@@ -2,27 +2,27 @@ class Radar < Formula
   desc "Terminal workspace for GitLab, GitHub, Jira, Slack, Git, and local work"
   homepage "https://github.com/temet-ai/radar"
   license "MIT"
-  version "0.1.0-alpha.16"
+  version "0.1.0-alpha.17"
 
   on_macos do
     on_arm do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.16/radar-v0.1.0-alpha.16-aarch64-apple-darwin.tar.gz"
-      sha256 "0220eb1211d5ecaa26329205ec16e3a61f93ac7c19fe64111d7c07e60c9df259"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.17/radar-v0.1.0-alpha.17-aarch64-apple-darwin.tar.gz"
+      sha256 "38dc53767864fb85b8e68d35907a25bee2c6635abc36d6b262c1a277484c6ff5"
     end
     on_intel do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.16/radar-v0.1.0-alpha.16-x86_64-apple-darwin.tar.gz"
-      sha256 "6446b680fb11a34c3515c2e6b05fe5b969a0bd2e1f1762bed7f0a2abf6e9ecf0"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.17/radar-v0.1.0-alpha.17-x86_64-apple-darwin.tar.gz"
+      sha256 "20149d8d91d426c81086c6f84303036d42be2f97152d0e8c24b4c0953350974c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.16/radar-v0.1.0-alpha.16-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "29b293f06843781ccdb77f405e72f83e264da79052da071f4ebe0c9e4a4e5d16"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.17/radar-v0.1.0-alpha.17-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e295120e967dae3bf6e6f5e059933192e661acef7ed920093d3fb78288253cff"
     end
     on_intel do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.16/radar-v0.1.0-alpha.16-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "039ebaba84bdb39eeb2bf54825a08fabd8f96533325c562b77e025c7a270b5c8"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.17/radar-v0.1.0-alpha.17-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "83a7e236fd18c5d8299a0221fbdf32b1d5f43b264b6880dd5b5c73f48c748e9c"
     end
   end
 
