@@ -2,27 +2,27 @@ class Radar < Formula
   desc "Terminal workspace for GitLab, GitHub, Jira, Slack, Git, and local work"
   homepage "https://github.com/temet-ai/radar"
   license "MIT"
-  version "0.1.0-alpha.19"
+  version "0.1.0-alpha.20"
 
   on_macos do
     on_arm do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.19/radar-v0.1.0-alpha.19-aarch64-apple-darwin.tar.gz"
-      sha256 "b2ff867975dbe3b29c3506d3e2e98ac425ac247e1e5fa56863229737bf11e17f"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.20/radar-v0.1.0-alpha.20-aarch64-apple-darwin.tar.gz"
+      sha256 "4a98a9947bf0c67514e27d8b38eb2a97ef37bab5ec0485a9b8b7ad4356f97fac"
     end
     on_intel do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.19/radar-v0.1.0-alpha.19-x86_64-apple-darwin.tar.gz"
-      sha256 "1237de4864052b240aa47a0f964dcc13ffc2e066a801500477062c9ce2613d1a"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.20/radar-v0.1.0-alpha.20-x86_64-apple-darwin.tar.gz"
+      sha256 "40596fc71bc0f97d5cd7435996ee6a5adc4dfdf5826c6b5203e5ce346728cceb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.19/radar-v0.1.0-alpha.19-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fa446e4c321b4d46444d1683edc97a48012effed55c2e6709f9acbe9b750f731"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.20/radar-v0.1.0-alpha.20-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b4c3e15884ccf76b9b0cde5eb636b9cb5b8411c8504e448ab4d69ef5378b7feb"
     end
     on_intel do
-      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.19/radar-v0.1.0-alpha.19-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0af6b2c7f2fe586c46c96a29d2370e3eceab313d3d42d1590e8ecf693087cd3b"
+      url "https://github.com/temet-ai/radar/releases/download/v0.1.0-alpha.20/radar-v0.1.0-alpha.20-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "db98b02764976948e04475efe7b762b14d864541ca03780f4a7b49865109e283"
     end
   end
 
